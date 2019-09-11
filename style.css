@@ -1,14 +1,6 @@
 body {
 	background-color: #000000;
 }
-
-aside {
-	background-color: #5bf4ff;
-	width: 10%;
-	height: 725px;
-	float: right;
-}
-
 a {
 	color: #000000;
 	text-decoration: none;

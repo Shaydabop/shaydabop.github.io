@@ -49,5 +49,7 @@ function buyPizzaPlace() {
 function update() {
   money += generators;
   money += smallblogs * 10;
+  money += onlineshops * 100;
+  money += pizzaplaces * 1000;
   document.getElementById("money").innerHTML = "Money: " + money;
 }

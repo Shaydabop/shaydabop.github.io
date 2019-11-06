@@ -1,6 +1,8 @@
 var money = 0;
 var generators = 0;
 var smallblogs = 0;
+var onlineshops = 0;
+var pizzaplaces = 0;
 
 function work() {
   money += 5;
@@ -21,6 +23,24 @@ function buySmallBlog() {
     money -= 100;
     smallblogs += 1;
     document.getElementById("smallblogs").innerHTML = "Lemonade Stands: " + smallblogs;
+    document.getElementById("money").innerHTML = "Money: " + money;
+  }
+}
+
+function buyOnlineShop() {
+  if (money > 999) {
+    money -= 1000;
+    onlineshops += 1;
+    document.getElementById("onlineshops").innerHTML = "Online Shops: " + onlineshops;
+    document.getElementById("money").innerHTML = "Money: " + money;
+  }
+}
+
+function buyPizzaPlace() {
+  if (money > 9999) {
+    money -= 10000;
+    pizzaplaces += 1;
+    document.getElementById("pizzaplaces").innerHTML = "Pizza Places: " + pizzaplaced;
     document.getElementById("money").innerHTML = "Money: " + money;
   }
 }

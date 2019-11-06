@@ -20,7 +20,7 @@ function buySmallBlog() {
   if (money > 99) {
     money -= 100;
     smallblogs += 1;
-    document.getElementById("smallblogs").innerHTML = "Small Blogs: " + smallblogs;
+    document.getElementById("smallblogs").innerHTML = "Lemonade Stands: " + smallblogs;
     document.getElementById("money").innerHTML = "Money: " + money;
   }
 }

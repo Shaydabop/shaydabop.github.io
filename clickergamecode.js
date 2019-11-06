@@ -27,6 +27,7 @@ function buySmallBlog() {
   }
 }
 
+
 function buyOnlineShop() {
   if (money > 999) {
     money -= 1000;
@@ -40,7 +41,7 @@ function buyPizzaPlace() {
   if (money > 9999) {
     money -= 10000;
     pizzaplaces += 1;
-    document.getElementById("pizzaplaces").innerHTML = "Pizza Places: " + pizzaplaced;
+    document.getElementById("pizzaplaces").innerHTML = "Pizza Places: " + pizzaplaces;
     document.getElementById("money").innerHTML = "Money: " + money;
   }
 }

@@ -1,0 +1,10 @@
+Version 1.0:
+-Added Money
+-Added Work
+-Added Generator
+-Added Small Blogs
+
+Version 1.1:
+-Renamed Small Blogs to Lemonade Stand
+-Added Online Shop
+-Added Pizza Place

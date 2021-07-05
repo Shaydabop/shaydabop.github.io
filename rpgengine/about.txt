@@ -1,3 +1,0 @@
-Hey! This is a simple rpg engine I decided to add to my website.
-Since this is gonna be a bigger project than usual, I put it in a new folder.
-This file is here so this folder is possible.
